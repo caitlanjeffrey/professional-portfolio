@@ -68,7 +68,7 @@ p{
 }
 
 .card {
-    background-color: #01c5ea;
+    background-color: transparent;
     color: #155466;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     margin: 15px;
