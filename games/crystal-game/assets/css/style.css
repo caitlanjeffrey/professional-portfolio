@@ -1,0 +1,47 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: whitesmoke;
+    background-image: url(/assets/images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+}
+
+.jumbotron {
+    background-color: transparent;
+    color: darkolivegreen;
+}
+
+.card {
+    background-color: transparent;
+    color: darkolivegreen;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    margin: 15px;
+}
+
+.btn {
+    background-color: #939576;
+    border-color: #939576;
+    margin: 15px 0 0 0;
+}
+
+.btn:hover {
+    background-color: #c7bca5;
+    border-color: #c7bca5;
+}
+
+.btn:focus {
+    background-color: #939576;
+    border-color: #939576;
+}
+
+.btn:active {
+    background-color: #939576;
+    border-color: #939576;
+}
+
+#footer {
+    text-align: center;
+    padding: 5px;
+    margin: 10px 0 10px 0;
+}
