@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Psychic Game</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Welcome, Guess A Letter If You Dare...</h1>
+                <p class="lead">The purpose of the game is to outsmart the computer!</p>
+            <hr class="my-4">
+                <p>You'll have nine guesses per round.</p>
+                <p>A win for you, means the computer only gets smarter. But a win for the computer, brings you closer to your demise.</p>
+            <hr class="my-4">
+                <p id="userguess"><strong>Letters Guessed: </strong></p>
+            </div>
+    </div><!--end of jumbotron container header-->
+    
+    <div class="psychic-game">
+        <div class="card-group">
+            <div class="card">
+                <img class="card-img-top" src="assets/images/award.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Games Won</h5>
+                    <p class="card-text">You might think you're smarter than the computer, but are you?</p>
+                    <br>
+                    <p class="card-text"><strong>Total Wins:</strong></p>
+                    <p class="card-text" id="wins"><strong>0</strong></p>
+                </div>
+            </div><!--end of card win-->
+
+            <div class="card">
+                <img class="card-img-top" src="assets/images/loss.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Games Lost</h5>
+                    <p class="card-text">You should already know the computer is far more surperior than you!</p>
+                    <p class="card-text"><strong>Total Losses:</strong></p>
+                    <p class="card-text" id="losses"><strong>0</strong></p>
+                </div>
+            </div><!--end of card loss-->
+
+            <div class="card">
+                <img class="card-img-top" src="assets/images/guessremain.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Guesses Remaining</h5>
+                    <p class="card-text">You don't have many chances remaining to prove your intelligence!</p>
+                    <p class="card-text"><strong>Guesses Remaining:</strong></p>
+                    <p class="card-text" id ="guesses"><strong>9</strong></p>
+                </div>
+            </div><!--end of card remaining-->
+        </div><!--end of card group-->
+    </div><!--end of game-->
+
+    <footer class="end-content">
+        <p id="footer">Copyright &copy; 2019</p>
+    </footer><!--end of footer-->
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/index.js">
+        
+        </script><!--end of javascript-->
+</body>
+</html>
